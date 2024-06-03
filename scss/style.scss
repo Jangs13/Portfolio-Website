@@ -94,13 +94,15 @@ h1, h2, h3, h4, h5,
 		color: $white;
 		padding-top: .7rem;
 		padding-bottom: .7rem;
+		font-family: 'Lobster', cursive; // Change this to any of the included fonts
 		&:hover, &:focus{
-			color: $white !important;
+		  color: $white !important;
 		}
 		@include media-breakpoint-down(md){
-			color: $white;
+		  color: $white;
 		}
-	}
+	  }
+	  
 	
 	.navbar-nav {
 		@include media-breakpoint-down(md){
